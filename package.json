@@ -1,0 +1,22 @@
+{
+  "name": "racefast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "concurrently 'npm run first' 'npm run second' 'npm run third'",
+    "first": "ts-node index.ts --id=1",
+    "second": "ts-node index.ts --id=2",
+    "third": "ts-node index.ts --id=3"
+  },
+  "homepage": "https://metaheap.io",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "metaheap": "git+ssh://git@github.com/trabur/head-team.git",
+    "phoenix-channels": "git+ssh://git@github.com/mcampa/phoenix-channels.git"
+  },
+  "devDependencies": {
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}
