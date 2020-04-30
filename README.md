@@ -1,6 +1,6 @@
 RAceFasT
 ========
-it's a three node party!
+tristed-pair vs log
 
 ```bash
 $ npm start
